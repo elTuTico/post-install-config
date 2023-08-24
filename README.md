@@ -62,73 +62,57 @@ Departments are the manner in which tickets are routed to the correct section of
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/52ccdc98-48ef-483f-9800-347ef7972c92"/>
 </p>
 <p>
---Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a new top level department named “System Administrators” as a means of giving your Admin Supreme access to all kinds of tickets submitted by the Users. Leave all other settings in default and come back to them later to tinker with SLAs, Emails, and more. Click “Create Department” to save the new department. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/713181a9-1bf1-4a97-bf70-bd7841f4d426"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Teams allows you to pull Agents from different departments to handle and organize specific issues or users via help topics or tickets filters. To create a “Team” within the “Admin” panel click the “Agents” tab, followed by the “Teams” tab, and then click “Add New Team”. Name the new team “Level II Support”, click “Create Team”, and utilize this new support team as an all-star group of agents that can solve higher level tickets. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/2f248d90-0b19-4883-bd65-2896a581ef3e"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, configure the system to allow anyone to create tickets, such as anonymous users. Within the “Admin” panel click the “Settings” tab, followed by the “Users” tab, and then ensure that the “Registration Required” box is unchecked. Save the changes.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/9fe511d5-4ab2-4a69-a017-71ee15ed80e3"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once we’ve given access to creating tickets to anyone we’re going to be creating the help desk professionals that will be going through and checking/solving tickets through Agents. Within the “Admin” panel click the “Agents” tab, followed by “Add New Agents”, and then make up to two new agents. Ensuring that the agent's passwords are not required to be reset upon logging in for the first time. Play around with the kind of “Access”, “Permissions”, “Teams”, and “Departments” you’d like to have them be placed.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/6a35c3ad-15d6-4042-b44f-35b1c3a65c1f"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Users are essentially the customers or people who the Agents would be providing support to through the kinds of tickets for help they submit through osTicket. Within the “Agent” panel click the “Users” tab, followed by “Add User”, and then create up to two new users. 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/67fc3ebc-0f4d-4616-914f-9e8285a0cb12"/>
+</p>
+<p>
+In osTicket SLAs are defined as time limit targets for how long the ticket is going to be open before the issue gets resolved by an agent. Within the “Admin” panel click the “Manage” tab, followed by “SLA”, and then click “Add New SLA Plan” to make up to three varying SLAs: Sev-A (1 hour within 24/7), Sev-B (4 hours within 24/), and Sev-C (8 hours within business hours). 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/elTuTico/post-install-config/assets/137955237/447e3e5d-035b-4689-9efc-aa5759f83e06"/>
+</p>
+<p>
+To finish off we will be creating “Help Topics” that are used to streamline your end users experience to ensure that proper assignments and prompt responses to tickets are done as issues arrise. Within the “Admin” panel click the “Manage tab, followed by “Help Topics”, and then click “Add New Help Topic”. Create four common help topics like “Business Critical Outage”, “Personal Computer Issues”, “Equipment Request”, and “Password Reset” that our users could use in the following step of this lab. 
 </p>
 <br />
