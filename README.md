@@ -33,7 +33,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/a95f1b85-14c8-4357-b076-2c9ef223239f"/>
 </p>
 <p>
-Login into your osTicket Amin interface with the credentials created while setting up your ticketing system. Once you are logged in remember that the initial page that opens up is the “Ticket” screen. From here you will be able to freely move from the “Admin” panel to the “Agent” panel using the options at the top right hand side of the page. The admin panel will be utilized as someone who actively sets up the ticketing system and defines the roles, SLA, and general administrative duties. While the agent panel is utilized as an employee at a help desk generally using the platform to solve tickets.
+Login into osTicket interface with the credentials created while setting up the ticketing system. Once logged in remember that the initial page that opens up is the “Ticket” screen. From here moving between the “Admin” panel to the “Agent” panel using the options at the top right hand side of the page will be the means of setting up the ticketing team. The admin panel will be utilized as someone who actively sets up the ticketing system and defines the roles, SLA, and general administrative duties. While the agent panel is utilized as an employee at a help desk generally using the platform to solve tickets.
 </p>
 <br />
 
@@ -41,7 +41,7 @@ Login into your osTicket Amin interface with the credentials created while setti
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/a87a532d-88f1-48e5-8e05-bf51dc7645be"/>
 </p>
 <p>
-Roles are permissions granted to Agents per Department that they have access. For this example we will be creating a role called “Supreme Admin” that will have permissions to create or delete tickets and just about anything else. Within the “Admin” panel click the “Agents” tab, followed by the “Roles” tab, and then click “Add New Role”. 
+Roles are permissions granted to Agents per Department that they have access. For this example the role “Supreme Admin” will be created with permissions to create or delete tickets and just about anything else. Within the “Admin” panel click the “Agents” tab, followed by the “Roles” tab, and then click “Add New Role”. 
 </p>
 <br />
 
@@ -49,7 +49,7 @@ Roles are permissions granted to Agents per Department that they have access. Fo
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/06d31188-80f1-4871-99c2-c70651d09243"/>
 </p>
 <p>
-Name the role “Supreme Admin”. Grant this role all the permissions available under the “Permissions” tab. Click “Add Role” once you are ready to finalize the role. 
+Name the role “Supreme Admin”. Grant this role all the permissions available under the “Permissions” tab. Click “Add Role” to finazlize the role. 
 </p>
 <br />
 
@@ -65,7 +65,7 @@ Departments are the manner in which tickets are routed to the correct section of
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/52ccdc98-48ef-483f-9800-347ef7972c92"/>
 </p>
 <p>
-Create a new top level department named “System Administrators” as a means of giving your Admin Supreme access to all kinds of tickets submitted by the Users. Leave all other settings in default and come back to them later to tinker with SLAs, Emails, and more. Click “Create Department” to save the new department. 
+Create a new top level department named “System Administrators” as a means of giving the Admin Supreme access to all kinds of tickets submitted by the Users. Leave all other settings in default and come back to them later to tinker with SLAs, Emails, and more. Click “Create Department” to save the new department. 
 </p>
 <br />
 
@@ -73,7 +73,7 @@ Create a new top level department named “System Administrators” as a means o
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/713181a9-1bf1-4a97-bf70-bd7841f4d426"/>
 </p>
 <p>
-Teams allows you to pull Agents from different departments to handle and organize specific issues or users via help topics or tickets filters. To create a “Team” within the “Admin” panel click the “Agents” tab, followed by the “Teams” tab, and then click “Add New Team”. Name the new team “Level II Support”, click “Create Team”, and utilize this new support team as an all-star group of agents that can solve higher level tickets. 
+Teams allows Agents to be utilized from different departments to handle and organize specific issues or users via help topics or tickets filters. To create a “Team” within the “Admin” panel click the “Agents” tab, followed by the “Teams” tab, and then click “Add New Team”. Name the new team “Level II Support”, click “Create Team”, and utilize this new support team as an all-star group of agents that can solve higher level tickets. 
 </p>
 <br />
 
@@ -89,7 +89,7 @@ Next, configure the system to allow anyone to create tickets, such as anonymous 
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/9fe511d5-4ab2-4a69-a017-71ee15ed80e3"/>
 </p>
 <p>
-Once we’ve given access to creating tickets to anyone we’re going to be creating the help desk professionals that will be going through and checking/solving tickets through Agents. Within the “Admin” panel click the “Agents” tab, followed by “Add New Agents”, and then make up to two new agents. Ensuring that the agent's passwords are not required to be reset upon logging in for the first time. Play around with the kind of “Access”, “Permissions”, “Teams”, and “Departments” you’d like to have them be placed.
+Once access to create tickets has been granted to anyone there must be help desk professionals that will be going through and checking/solving tickets through Agents created. Within the “Admin” panel click the “Agents” tab, followed by “Add New Agents”, and then make up to two new agents. Ensuring that the agent's passwords are not required to be reset upon logging in for the first time. Play around with the kind of “Access”, “Permissions”, “Teams”, and “Departments” available.
 </p>
 <br />
 
@@ -113,6 +113,6 @@ In osTicket SLAs are defined as time limit targets for how long the ticket is go
 <img src="https://github.com/elTuTico/post-install-config/assets/137955237/447e3e5d-035b-4689-9efc-aa5759f83e06"/>
 </p>
 <p>
-To finish off we will be creating “Help Topics” that are used to streamline your end users experience to ensure that proper assignments and prompt responses to tickets are done as issues arrise. Within the “Admin” panel click the “Manage tab, followed by “Help Topics”, and then click “Add New Help Topic”. Create four common help topics like “Business Critical Outage”, “Personal Computer Issues”, “Equipment Request”, and “Password Reset” that our users could use in the following step of this lab. 
+To finish off “Help Topics” that are used to streamline end users experience to ensure that proper assignments and prompt responses to tickets are done as issues arrise must be created. Within the “Admin” panel click the “Manage tab, followed by “Help Topics”, and then click “Add New Help Topic”. Create four common help topics like “Business Critical Outage”, “Personal Computer Issues”, “Equipment Request”, and “Password Reset” that users could use in the following step of this lab. 
 </p>
 <br />
